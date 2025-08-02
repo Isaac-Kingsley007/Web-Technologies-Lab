@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Mapping</title>
+</head>
+<body>
+    <div style="display: flex; flex-flow: column; align-items: center;">
+        <h2>Image Mapping</h2>
+        <p>Click on the Logo to know more</p>
+        <img src="image.png" alt="Programming Languages" usemap="#langMap">
+        <map name="langMap">
+            <area shape="rect" coords="724,206,827,309" href="https://nodejs.org/en" alt="JavaScript">
+            <area shape="poly" coords="433,193,415,195,410,198,407,202,406,220,435,220,435,223,390,224,382,229,377,237,376,245,376,262,379,273,386,280,389,282,406,281,406,300,421,312,434,314,451,311,461,303,463,300,463,285,435,285,435,282,482,282,492,267,497,254,491,235,483,224,464,223,463,204,456,197,451,194,433,193" href="https://www.python.org/" alt="Python">
+            <area shape="poly" coords="281,48,230,76,225,81,226,138,231,145,278,172,284,171,332,143,336,138,335,81,332,77,281,48" href="https://isocpp.org/" alt="C++">
+            <area shape="poly" coords="126,191,71,224,69,227,69,286,72,292,121,322,129,322,179,291,181,287,181,228,177,222,130,193,125,191" href="https://www.c-language.org/" alt="C">
+            <area shape="circle" coords="644,99,80" href="https://www.java.com/en/" alt="Java">
+        </map>
+    </div>
+</body>
+</html>

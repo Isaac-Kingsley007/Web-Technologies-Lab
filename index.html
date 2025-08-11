@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Technologies Lab</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f6fa;
+            text-align: center;
+            margin: 0;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #2f3640;
+        }
+
+        div {
+            margin-top: 30px;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #3498db;
+            color: white;
+            padding: 12px 25px;
+            margin: 10px;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        a:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        a:active {
+            transform: translateY(0);
+        }
+
+        .exercises-container{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    <div>
+    <h1>Web Technologies Lab</h1>
+    <div class="exercises-container">
         <a href="./exercise1/index.html">Exercise 1</a>
         <a href="./exercise2/index.html">Exercise 2</a>
     </div>

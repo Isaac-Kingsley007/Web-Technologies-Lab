@@ -1,0 +1,21 @@
+.external{
+    background-color: #8DBCC7;
+    padding: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.external h1{
+    color: #EBFFD8;
+    font-size: xx-large;
+}
+
+.external p{
+    color: #000;
+    font-size: large;
+}
+
+.external .image-container{
+    margin-right: 30px;
+}

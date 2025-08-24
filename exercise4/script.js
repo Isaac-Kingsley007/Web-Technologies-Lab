@@ -1,5 +1,4 @@
 document.getElementById('input-form').addEventListener("submit", (event) => {
-    alert('nigga sure');
     if (!inputValidation()) {
       event.preventDefault();
     }
